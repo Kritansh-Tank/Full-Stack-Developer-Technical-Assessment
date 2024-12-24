@@ -22,11 +22,11 @@ A. Design & Layout
    2. Optional integration of Shadcn for depth and subtle UI effects.
 
 B. State Management
-• State Management Library: Redux is used to manage global state.
-  • Store Setup: Redux store with slices/actions for CRUD operations.
-  • Data Flow:
-    • Fetching Data: On component mount or user interaction, data is fetched from Supabase.
-    • Updating Data: Updates to the state are dispatched to Redux and persisted in the database.
+1. State Management Library: Redux is used to manage global state.
+   1. Store Setup: Redux store with slices/actions for CRUD operations.
+   2. Data Flow:
+      1. Fetching Data: On component mount or user interaction, data is fetched from Supabase.
+      2. Updating Data: Updates to the state are dispatched to Redux and persisted in the database.
 
 Part 2: Database and ORM
 
