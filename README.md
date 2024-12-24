@@ -16,10 +16,10 @@ A. Design & Layout
 1. Figma Reference: The application re-creates the primary screen from the provided Figma file, ensuring consistency with layout, color schemes, and typography.
 2. Component Structure:
    1. Header & Navigation: Responsive header with basic navigation.
-  2. Cards/Sections: Reusable cards and sections based on the Figma design.
+   2. Cards/Sections: Reusable cards and sections based on the Figma design.
 3. Styling:
-  1. TailwindCSS utility classes for spacing, fonts, and color schemes.
-  2. Optional integration of Shadcn for depth and subtle UI effects.
+   1. TailwindCSS utility classes for spacing, fonts, and color schemes.
+   2. Optional integration of Shadcn for depth and subtle UI effects.
 
 B. State Management
 • State Management Library: Redux is used to manage global state.
