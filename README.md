@@ -19,7 +19,6 @@ A. Design & Layout
    2. Cards/Sections: Reusable cards and sections based on the Figma design.
 3. Styling:
    1. TailwindCSS utility classes for spacing, fonts, and color schemes.
-   2. Optional integration of Shadcn for depth and subtle UI effects.
 
 B. State Management
 1. State Management Library: Redux is used to manage global state.
@@ -31,12 +30,19 @@ B. State Management
 Part 2: Database and ORM
 
 A. Supabase Setup
-• Project Creation: A new project was created on Supabase.
-• Database Configuration: Relevant tables/models were defined (e.g., users, posts, or items) based on the Figma reference.
-• Environment Variables: Supabase project URL and API keys are stored in a .env file for secure access.
+1. Project Creation: A new project was created on Supabase.
+2. Database Configuration: Relevant tables/models were defined (e.g., users, posts, or items) based on the Figma reference.
+3. Environment Variables: Supabase project URL and API keys are stored in a .env file for secure access.
 
 B. Prisma ORM
-• CRUD API: Simple Node/Next.js API routes were created for create, read, update, and delete operations using Prisma ORM.
-• Integration:
-  • API endpoints interact with Redux for state updates.
-  • Prisma manages the database schema and ensures consistency.
+1. CRUD API: Simple Node/Next.js API routes were created for create, read, update, and delete operations using Prisma ORM.
+2. Integration:
+   1. API endpoints interact with Redux for state updates.
+   2. Prisma manages the database schema and ensures consistency.
+  
+## Future Improvements
+
+1. Enable functional CRUD operations.
+2. Enhance UI using additional Shadcn effects.
+3. Add authentication with Supabase.
+4. Implement unit and integration tests.
