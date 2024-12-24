@@ -13,13 +13,13 @@ This project is a simple React application that showcases full-stack development
 Part 1: UI and State Management
 
 A. Design & Layout
-• Figma Reference: The application re-creates the primary screen from the provided Figma file, ensuring consistency with layout, color schemes, and typography.
-• Component Structure:
-  • Header & Navigation: Responsive header with basic navigation.
-  • Cards/Sections: Reusable cards and sections based on the Figma design.
-•Styling:
-  • TailwindCSS utility classes for spacing, fonts, and color schemes.
-  • Optional integration of Shadcn for depth and subtle UI effects.
+1. Figma Reference: The application re-creates the primary screen from the provided Figma file, ensuring consistency with layout, color schemes, and typography.
+2. Component Structure:
+   1. Header & Navigation: Responsive header with basic navigation.
+  2. Cards/Sections: Reusable cards and sections based on the Figma design.
+3. Styling:
+  1. TailwindCSS utility classes for spacing, fonts, and color schemes.
+  2. Optional integration of Shadcn for depth and subtle UI effects.
 
 B. State Management
 • State Management Library: Redux is used to manage global state.
