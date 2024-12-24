@@ -2,11 +2,11 @@
 # React Full-Stack Application
 
 This project is a simple React application that showcases full-stack development skills using the following stack:
-• React: For the front-end.
-• TailwindCSS: For styling.
-• Redux: For state management.
-• Supabase: For database and backend services.
-• Prisma ORM: For managing database schema and CRUD operations.
+1. React: For the front-end.
+2. TailwindCSS: For styling.
+3. Redux: For state management.
+4. Supabase: For database and backend services.
+5. Prisma ORM: For managing database schema and CRUD operations.
 
 ## Features
 
